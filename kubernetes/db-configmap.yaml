@@ -5,8 +5,8 @@ metadata:
   labels:
     app: postgresdb
 data:
+  POSTGRES_USER: 'eventadmin'
   POSTGRES_DB: "webeventspython"
-  POSTGRES_USER: "eventadmin"
-  POSTGRES_PASSWORD: "secret1234#"
+  POSTGRES_PASSWORD: "secret1234"
   HOST: "postgresdb.default"
   PORT: "5432"

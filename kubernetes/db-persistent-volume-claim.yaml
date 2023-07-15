@@ -3,7 +3,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   
-  name: db-persistent-pvc
+  name: db-persistent-pvc2
 spec:
   storageClassName: manual
   accessModes:
