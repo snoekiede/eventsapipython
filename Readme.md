@@ -1,3 +1,3 @@
-# Profiles REST API
+# Events REST API
 
-Profiles REST API Course code
+Events API
