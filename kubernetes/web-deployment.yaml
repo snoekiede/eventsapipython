@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: web
-          image: iedesnoek/webeventspython:v4
-          imagePullPolicy: IfNotPresent
+          image: <your dockerhubusername>/webeventspython:v1
+          imagePullPolicy: Always
 
           env:
             - name: "HOST"
