@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: <your hubusername>/webeventspython:latest
+          image: iedesnoek/webeventspython:v25
           imagePullPolicy: Always
 
           env:
