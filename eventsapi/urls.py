@@ -3,5 +3,5 @@ from eventsapi.views import WebEventList, WebEventDetail
 
 urlpatterns=[
     path('events/', WebEventList.as_view()),
-    path('events/<int:pk>/', WebEventDetail.as_view()),
+    path('even/<int:pk>/', WebEventDetail.as_view()),
 ]
